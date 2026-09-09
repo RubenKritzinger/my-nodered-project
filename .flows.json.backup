@@ -12,30 +12,21 @@
         "type": "inject",
         "z": "8f5b5a88b2c87553",
         "name": "Fridge Sensor Data",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
+        "props": [],
         "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{\"unit_id\":\"FRIDGE-01\",\"temp\":9.5,\"door_open\":false}",
-        "payloadType": "json",
-        "x": 150,
+        "x": 35,
         "y": 340,
         "wires": [
             [
                 "cbd72b123f699ed3",
                 "aefea62c73bbaec7"
             ]
-        ]
+        ],
+        "l": false
     },
     {
         "id": "aefea62c73bbaec7",
